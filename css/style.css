@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 1210px;
+  margin: 0 auto;
+}
+
+.logIn {
+  /*line-height: 54px;*/
+}
+
+.phone {
+  width: 21px;
+  height: 22px;
+  background: linear-gradient(to bottom, #0c3357, #1e6584);
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 22px 0px 10px 53px;
+  position: absolute;
+}
+
+.phoneNumber {
+  display: inline-block;
+  position: absolute;
+  margin-left: 78px;
+margin-top: 23px;
+}
+
+.phoneNumber span{
+  font-family: Arial;
+  font-size: 18px;
+  color: #5e696d;
+}
+
+.logging {
+  width: 495px;
+  height: 26px;
+  background: linear-gradient(to bottom, #1f5585, #0c3357);
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 359px;
+  margin-top: 18px;
+  line-height: 26px;
+  -webkit-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+}
+
+.logging img {
+  vertical-align: middle;
+  margin-left: 7px;
+}
+
+.logging > span {
+  position: absolute;
+  margin-left: 246px;
+}
+
+.logging input {
+  width: 112px;
+  border: none;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+input[type="password"] {
+  margin-left: 125px;
+}
+
+.icons {
+  width: 75px;
+  height: 20px;
+  border: 1px solid #bdc4c7;
+  border-radius: 50px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.icons a {
+  padding: 4px;
+}
+
+.logging a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 11px;
+}
+
+.logging span {
+  color: #fff;
+  font-size: 11px;
+}
+
+input[placeholder] {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 11px;
+}
+
+.logging .forgotPassword {
+  text-decoration: underline;
+  color: #bfbfbf;
+  float: right;
+  padding: 0px 10px;
+  position: absolute;
+  margin-left: 362px;
+}
+
+.mainBanner {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav {
+  height: 34px;
+  width: 912px;
+  background: linear-gradient(to bottom, #505860, #010101);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 2px;
+  -webkit-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  line-height: 33px;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0px 15px;
+  margin-top: 1px;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+nav ul li:first-child a {
+  margin-left: 130px;
+}
+
+nav ul li a:hover {
+  line-height: 27px;
+  margin-top: 4px;
+  background: linear-gradient(to bottom, #1f6787, #0c3357);
+  border-radius: 50px;
+}
+
+.basket .blue {
+  color: #0d5a8f;
+  font-size: 12px;
+  padding-right: 15px;
+}
+
+.basket span {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 11px;
+  color: #bfbfbf;
+  float: left;
+  /*padding-right: 15px;*/
+}
+
+.basket .sum {
+  padding-right: 7px;
+}
+
+.basket img {
+  float: left;
+  margin-top: 8px;
+  margin-right: 7px;
+}
+
+.basket {
+  float: right;
+}
+
+.genSearch {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.search {
+  height: 133px;
+  border: 1px solid #b0b0b1;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  -webkit-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+}
+
+.avtoSearch {
+  width: 413px;
+  margin-right: 9px;
+}
+
+.tireSearch {
+  width: 191px;
+  margin-right: 9px;
+}
+
+.wheelSearch {
+  width: 266px;
+}
+
+aside {
+  width: 190px;
+  margin-left: 44px;
+  display: inline-block;
+  float: left;
+}
+
+.catalog {
+  width: 180px;
+  height: 25px;
+  border: 1px solid #b0b0b1;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  -webkit-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  -moz-box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+  box-shadow: 9px 9px 7px -5px rgba(0,0,0,0.33);
+}
+
+.brands .catalog {
+  margin-bottom: 14px;
+}
+
+.bookIcon {
+  width: 22px;
+  height: 21px;
+  padding-top: 1px;
+  background: linear-gradient(to top, #0c3357, #1e6584);
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 1.5px 2px;
+  line-height: 22px;
+}
+
+.catalog span {
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  color: #114165;
+  float: right;
+  margin-top: 3.5px;
+  margin-right: 12px;
+}
+
+.subCatal {
+  width: 148px;
+  height: 25px;
+  border: 1px solid #b0b0b1;
+  border-radius: 50px;
+  margin-left: 3px;
+  line-height: 25px;
+}
+
+.bigCircle {
+  width: 22px;
+  height: 22px;
+  background-color: #0c3357;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 1.5px 2px;
+  float: left;
+}
+
+.smallCircle {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  margin-top: 5px;
+  float: left;
+}
+
+.subCatal span {
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  color: #114165;
+  float: left;
+}
+
+.brands {
+  margin-left: 9px;
+}
+
+.brands .catalog span {
+  margin-right: 100px;
+
+}
+
+.brands .subCatal {
+  width: 134px;
+  margin-left: 15px;
+}
+
+.wheelCatalog,
+.screwCatalog {
+  /*margin-top: 100px;*/
+}
+
+.subList {
+  margin-bottom: 1px;
+}
+
+.subList a {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 12px;
+  color: #465961;
+  text-decoration: none;
+  line-height: 25px
+}
+
+.subList a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  color: #0c3256;
+  font-family: Arial;
+}
+
+.subList li {
+  list-style: circle;
+  margin-left: 54px;
+}
+
+.products {
+  width: 504px;
+  height: 627px;
+  background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
+  border-radius: 3px;
+  display: inline-block;
+  float: left;
+  padding-left: 24px;
+}
+
+.item {
+  width: 137px;
+  height: 123.5px;
+  background-color: #fff;
+  border: 1px solid #b0b9bc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 127px;
+  padding-top: 4.5px;
+}
+
+.item img {
+  /*vertical-align: middle;*/
+}
+
+.productColumn {
+  display: inline-block;
+  width: 164px;
+}
+
+.container {
+  text-align: center;
+  margin-right: 24px;
+  width: 137px;
+  height: 189px;
+  margin-top: 13px;
+}
+
+.container .name {
+  font-size: 15px;
+  color: #206988;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-weight: bolder;
+  line-height: 15px;
+}
+
+.container .description {
+  font-size: 13px;
+  color: #000;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  line-height: 15px;
+  margin-left: 2px;
+}
+
+.price,
+.currency {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #114165;
+  margin-left: 16px;
+}
+
+.currency {
+  font-size: 12px;
+}
+
+input[type="checkbox"] {
+  width: 41px;
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+#brand3 {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  color: #465961;
+  float: right;
+  margin-right: 85px;
+  margin-top: 7px;
+}
+
+input[type="submit"] {
+  width: 82px;
+  height: 26px;
+  background: linear-gradient(to top, #0c3357, #1e6584);
+  border-radius: 50px;
+  font-size: 11px;
+  font-family: Arial;
+  color: #fff;
+  border: none;
+  margin-left: 26px;
+  margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.main {
+  height: 627px;
+}
+
+.brandsAd {
+  text-align: center;
+  line-height: 31px;
+  margin-top: 30px;
+}
+
+.brandsAd img {
+  vertical-align: middle;
+  margin: 0px 5px;
+}
+
+footer {
+  width: 910px;
+  height: 100px;
+  background-color: #213a4d;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  display: block;
+  margin: 0 auto;
+  height: 14px;
+  padding: 8px 0 10px 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li {
+  color: #fff;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+footer ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-family: Arial;
+  margin: 0px 10px;
+}
+
+footer ul li a:hover {
+  color: #52abcb;
+}
+
+footer p {
+  font-size: 11px;
+  color: #7f4740;
+  font-family: Arial;
+  margin-top: 5px;
+}
+
+.container span {
+  display: block;
+}
